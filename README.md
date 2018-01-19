@@ -1,9 +1,8 @@
 # Extension Overview
 
-This extension is used for “dynamically” placing blocks of content on product pages based on product *attributes, SKU, category*, and/or *date range*.
+Magento 1.
 
-Users can create these blocks in the Magento admin where they create the content and specify the conditions which determine which product pages the content will display on.
-
+This extension facilitates "conditional" placement of content blocks, on product pages, based on product **attributes, category**, and/or **date range**.
 
 # Installation
 
@@ -20,10 +19,10 @@ These positions (product_notes_top, product_block_top, product_block_bottom) are
 
 # Creating/Editing a Dynamic Block
 
-1. In the Magento Admin, navigate to *CMS > PSA Dynamic CMS Blocks*.
+1. In the Magento Admin, navigate to **CMS > PSA Dynamic CMS Blocks**.
 
-2. To create a new block click the *Add New Dynamic Block* button, to edit an existing block click one in the list.
+2. To create a new block click the **Add New Dynamic Block** button, to edit an existing block click one in the list.
 
-3. Fill-in the form, as necessary.  The *position on page* option locations will be determined by the placement, within the template, in **Installation**.
+3. Fill-in the form, as necessary.  The **position on page** option locations will be determined by the placement, within the template, in *Installation*.
 
 4. Conditions:  block will display if product matches ALL conditions.
