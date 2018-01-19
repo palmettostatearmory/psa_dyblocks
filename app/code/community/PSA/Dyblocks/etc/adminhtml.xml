@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <cms>
+            <children>
+                <psa_dyblocks>
+                    <title>PSA Dynamic CMS Blocks</title>
+                    <action>adminhtml/psadyblocks_dyblocks</action>
+                    <sort_order>99</sort_order>
+                </psa_dyblocks>
+            </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <psa_dyblocks>
+                                <title>PSA Dynamic CMS Blocks</title>
+                                <sort_order>99</sort_order>
+                            </psa_dyblocks>
+                        </children>
+                    </cms>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
