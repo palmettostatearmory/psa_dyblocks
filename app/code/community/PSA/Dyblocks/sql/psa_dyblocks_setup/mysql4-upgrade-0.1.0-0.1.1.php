@@ -11,7 +11,7 @@ $installer->startSetup();
 
 
 $installer->run("
-    ALTER TABLE `mgn_psa_dyblocks` ADD COLUMN `include_skus` TEXT NULL AFTER `block_position`;
+    ALTER TABLE `{$installer->getTable('psa_dyblocks/dyblock')}` ADD COLUMN `include_skus` TEXT NULL AFTER `block_position`;
 ");
 
     
